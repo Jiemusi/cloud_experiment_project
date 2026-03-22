@@ -1,0 +1,4 @@
+hostname,gpu_name,model,avg_batch_time,avg_data_time,throughput_img_per_s
+instance-t4,Tesla T4,mobilenet_v3_small,0.054078,0.019455,591.738
+instance-t4,Tesla T4,resnet18,0.089663,0.000372,356.893
+instance-t4,Tesla T4,resnet50,0.299305,0.000367,106.914

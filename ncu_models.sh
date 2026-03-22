@@ -1,6 +1,6 @@
 set -e
 
-NCU=/usr/local/NVIDIA-Nsight-Compute-2026.1/ncu
+NCU=/home/jl7250/NVIDIA-Nsight-Compute-2024.1/ncu
 
 GPU_NAME=$(nvidia-smi --query-gpu=name --format=csv,noheader | head -n 1)
 GPU_TAG=$(echo "$GPU_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g; s/[^a-z0-9_]/_/g')
